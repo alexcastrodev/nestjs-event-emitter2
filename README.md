@@ -16,6 +16,16 @@ To start the application, run:
 npm start:dev
 ```
 
+# Instalation with Docker
+
+```bash
+docker run --rm -v ${PWD}:/app -w /app node:18-alpine yarn
+```
+
+```bash
+docker-compose up -d
+```
+
 This will start the application in development mode. You can then access the application at http://localhost:3000.
 
 # How it Works
